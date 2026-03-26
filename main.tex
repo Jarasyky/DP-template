@@ -298,7 +298,7 @@ labelfont=bf,					% název popisku tučně
 
 \newcommand{\odkaz}[2] {\hyperref[#2]{#1~\labelcref{#2}}}	% Funkce pro skloňování odkazů první je vyskloňované slovo druhé je label na odkaz
 
-\usepackage{hyperref}
+%\usepackage{hyperref}
 \hypersetup{
 	unicode=true,					% kódování záložek s diakritikou
 	pdftitle={\druhCZ~--~\nazevCZ}, % metadata titul
@@ -540,6 +540,6 @@ allcolors=black					% vsechny okdazy barvou ostatního textu, odkomentovat před
 \appendix
 \renewcommand{\thechapter}{\arabic{chapter}}
 \addtocontents{toc}{\protect\vskip50pt}
-\input{Chapters/appendix.tex}
+\input{Chapters/99_appendix.tex}
 
 \end{document}
