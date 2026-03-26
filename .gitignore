@@ -1,0 +1,17 @@
+# LaTeX build artifacts
+*.aux
+*.bcf
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+pdfa.xmpi
+prace.xmpdata
+
+# Output PDF (comment out if you want to track it)
+# main.pdf
